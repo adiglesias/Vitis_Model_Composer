@@ -65,37 +65,37 @@ SOURCES/C/hwlib/
 /resources/ 
 
 # Ignore temporary and cache files
-#*.tmp
-#*.cache
-#*.slxc
+*.tmp
+*.cache
+*.slxc
 
 # Ignore autosave files
-#*.asv
-#*.m~
-#*.slx.r*
-#*.mdl.r*
+*.asv
+*.m~
+*.slx.r*
+*.mdl.r*
 
 # Matlab code generation folders
-#codegen/
+codegen/
 
 # Ignore MATLAB Packaged app and toolbox files
-#*.mlappinstall
-#*.mltbx
+*.mlappinstall
+*.mltbx
 
 # Ignore MATLAB Cloud based storage dotfile
-#.MATLABDriveTag
+.MATLABDriveTag
 
 # Ignore MATLAB projects?
 *.prj
 
 # Ignore MATLAB generated helpsearch folders
-#helpsearch*/
+helpsearch*/
 
 # Ignore Vivado
 .Xil
-#/project_*.runs/
-#/project_*.sim/
-#/project_*.cache/
+/project_*.runs/
+/project_*.sim/
+/project_*.cache/
 
 # Octave session info
-#octave-workspace
+octave-workspace
